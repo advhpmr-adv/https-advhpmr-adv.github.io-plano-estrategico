@@ -3,200 +3,262 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Plano Estratégico Personalizado | Advocacia que Atrai | R$ 297</title>
+    <title>Seu Primeiro Cliente em 7 Dias | Plano Estratégico</title>
     <style>
         * { margin: 0; padding: 0; box-sizing: border-box; }
         html { scroll-behavior: smooth; }
-        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; background: #0a0a0a; color: #e0e0e0; line-height: 1.6; }
-        .container { max-width: 1200px; margin: 0 auto; padding: 0 20px; }
-        header { background: linear-gradient(135deg, #1a1a1a 0%, #0f0f0f 100%); padding: 20px 0; border-bottom: 2px solid #d4af37; position: sticky; top: 0; z-index: 100; }
-        .header-content { display: flex; justify-content: space-between; align-items: center; }
-        .logo { font-size: 24px; font-weight: bold; color: #d4af37; }
-        nav a { color: #e0e0e0; text-decoration: none; margin: 0 20px; transition: color 0.3s; }
-        nav a:hover { color: #d4af37; }
-        .hero { background: linear-gradient(135deg, #1a1a1a 0%, #2d2d2d 100%); padding: 100px 0; text-align: center; }
-        .hero h1 { font-size: 48px; color: #d4af37; margin-bottom: 20px; font-weight: 700; }
-        .hero p { font-size: 22px; color: #b8b8b8; margin-bottom: 40px; max-width: 800px; margin-left: auto; margin-right: auto; }
-        .price { font-size: 56px; color: #d4af37; font-weight: 700; margin: 30px 0; }
-        .price-label { font-size: 18px; color: #888; margin-bottom: 40px; }
-        .cta-button { background: linear-gradient(135deg, #d4af37 0%, #f0c64f 100%); color: #0a0a0a; padding: 16px 48px; font-size: 18px; border: none; border-radius: 8px; cursor: pointer; font-weight: 700; transition: transform 0.3s, box-shadow 0.3s; text-decoration: none; display: inline-block; }
-        .cta-button:hover { transform: scale(1.05); box-shadow: 0 10px 30px rgba(212, 175, 55, 0.4); }
-        .features { padding: 80px 0; background: #0a0a0a; }
-        .section-title { font-size: 42px; color: #d4af37; text-align: center; margin-bottom: 60px; font-weight: 700; }
-        .features-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 40px; margin-bottom: 60px; }
-        .feature-card { background: #1a1a1a; padding: 40px; border-radius: 12px; border: 1px solid #d4af37; transition: transform 0.3s, box-shadow 0.3s; }
-        .feature-card:hover { transform: translateY(-10px); box-shadow: 0 15px 40px rgba(212, 175, 55, 0.2); }
-        .feature-card h3 { color: #d4af37; font-size: 24px; margin-bottom: 15px; }
-        .feature-card p { color: #b8b8b8; line-height: 1.8; }
-        .modules { padding: 80px 0; background: #0f0f0f; }
-        .modules-list { display: grid; grid-template-columns: repeat(auto-fit, minmax(350px, 1fr)); gap: 30px; margin-bottom: 60px; }
-        .module { background: linear-gradient(135deg, #1a1a1a 0%, #2d2d2d 100%); padding: 30px; border-radius: 8px; border-left: 4px solid #d4af37; }
-        .module h4 { color: #d4af37; font-size: 20px; margin-bottom: 15px; }
-        .module ul { list-style: none; padding-left: 0; }
-        .module li { color: #b8b8b8; padding: 8px 0; padding-left: 25px; position: relative; }
-        .module li:before { content: "✓"; position: absolute; left: 0; color: #d4af37; font-weight: bold; }
-        .benefits { padding: 80px 0; background: #0a0a0a; }
-        .benefit-item { display: flex; gap: 20px; margin-bottom: 30px; align-items: flex-start; }
-        .benefit-icon { font-size: 32px; color: #d4af37; min-width: 40px; text-align: center; }
-        .benefit-content h4 { color: #d4af37; margin-bottom: 10px; font-size: 18px; }
-        .benefit-content p { color: #b8b8b8; line-height: 1.8; }
-        .testimonials { padding: 80px 0; background: #0f0f0f; }
-        .testimonial { background: #1a1a1a; padding: 40px; border-radius: 12px; border: 1px solid #d4af37; margin-bottom: 30px; }
-        .testimonial-text { color: #b8b8b8; font-style: italic; margin-bottom: 20px; line-height: 1.8; }
-        .testimonial-author { color: #d4af37; font-weight: 700; }
-        .cta-final { background: linear-gradient(135deg, #d4af37 0%, #f0c64f 100%); padding: 80px 0; text-align: center; }
-        .cta-final h2 { color: #0a0a0a; font-size: 42px; margin-bottom: 30px; font-weight: 700; }
-        .cta-final p { color: #1a1a1a; font-size: 20px; margin-bottom: 40px; }
-        .cta-final .cta-button { background: #0a0a0a; color: #d4af37; font-size: 20px; padding: 18px 60px; }
-        .cta-final .cta-button:hover { background: #1a1a1a; }
-        footer { background: #0a0a0a; border-top: 2px solid #d4af37; padding: 40px 0; text-align: center; color: #888; }
-        .guarantee { background: #1a1a1a; border: 2px solid #d4af37; padding: 30px; border-radius: 8px; margin: 40px 0; text-align: center; }
-        .guarantee h3 { color: #d4af37; margin-bottom: 15px; font-size: 24px; }
-        .guarantee p { color: #b8b8b8; line-height: 1.8; }
+        body { font-family: Arial, sans-serif; background: #1a1a1a; color: #fff; }
+        .container { max-width: 1000px; margin: 0 auto; padding: 0 20px; }
+
+        .urgency-bar { background: #ff4500; padding: 12px; text-align: center; font-weight: bold; font-size: 14px; }
+
+        header { background: #0a0a0a; padding: 30px 0; text-align: center; border-bottom: 3px solid #ff4500; }
+        header h1 { font-size: 32px; color: #ff6600; margin-bottom: 10px; }
+        header p { color: #ccc; font-size: 14px; }
+
+        .hero { background: #2a2a2a; padding: 40px 0; border-bottom: 3px solid #ff4500; text-align: center; }
+        .hero h2 { font-size: 36px; color: #ff6600; margin-bottom: 20px; }
+
+        .cards-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 20px; margin: 60px 0; }
+        .card { background: #2a2a2a; border: 2px solid #8b6f47; padding: 25px; border-radius: 8px; text-align: center; }
+        .card-icon { font-size: 28px; margin-bottom: 15px; }
+        .card h3 { color: #ff6600; font-size: 16px; margin-bottom: 10px; }
+        .card p { font-size: 13px; color: #ccc; line-height: 1.6; }
+
+        .highlight-box { background: #ff4500; padding: 40px; border-radius: 8px; margin: 60px 0; }
+        .highlight-box h2 { font-size: 28px; color: #fff; margin-bottom: 25px; text-align: center; }
+        .highlight-item { background: #c23b00; padding: 20px; margin-bottom: 15px; border-radius: 4px; }
+        .highlight-item strong { color: #fff; display: block; margin-bottom: 8px; font-size: 15px; }
+        .highlight-item p { font-size: 13px; color: #f0f0f0; }
+        .result-item { text-align: center; margin: 15px 0; font-weight: bold; font-size: 14px; }
+
+        .pricing-section { background: #2a2a2a; padding: 50px 0; text-align: center; border-top: 3px solid #ff4500; }
+        .pricing-section h2 { color: #ff6600; font-size: 28px; margin-bottom: 40px; }
+        .price-box { background: #3a3a3a; border: 2px solid #8b6f47; padding: 40px; border-radius: 8px; max-width: 500px; margin: 0 auto; }
+        .price-box .price { font-size: 56px; color: #ff6600; font-weight: bold; margin: 20px 0; }
+        .price-box p { font-size: 13px; color: #ccc; margin-bottom: 20px; }
+        .btn { background: #c23b00; color: #fff; padding: 15px 40px; border: none; border-radius: 4px; font-size: 16px; font-weight: bold; cursor: pointer; width: 100%; margin-top: 20px; text-decoration: none; display: inline-block; }
+        .btn:hover { background: #ff4500; }
+
+        .guarantee { background: #3a3a3a; padding: 20px; margin-top: 20px; border-radius: 4px; font-size: 13px; text-align: center; }
+        .guarantee strong { color: #ff6600; }
+
+        .checklist-section { padding: 60px 0; }
+        .checklist-section h2 { color: #ff6600; text-align: center; font-size: 28px; margin-bottom: 40px; }
+        .checklist-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 40px; }
+        .checklist-col h3 { color: #ff6600; margin-bottom: 20px; font-size: 18px; }
+        .checklist-item { display: flex; gap: 10px; margin-bottom: 15px; font-size: 13px; }
+        .checklist-icon { color: #4ade80; font-weight: bold; font-size: 16px; }
+        .checklist-icon.no { color: #ff4500; }
+
+        .faq-section { background: #2a2a2a; padding: 60px 0; border-top: 3px solid #ff4500; }
+        .faq-section h2 { color: #ff6600; text-align: center; font-size: 28px; margin-bottom: 40px; }
+        .faq-item { background: #3a3a3a; padding: 20px; margin-bottom: 15px; border-radius: 4px; border-left: 4px solid #ff4500; cursor: pointer; }
+        .faq-item p { color: #ccc; font-size: 13px; }
+        .faq-item:hover { background: #4a4a4a; }
+
+        .final-cta { background: #0a0a0a; padding: 60px 0; text-align: center; border-top: 3px solid #ff4500; }
+        .final-cta h2 { color: #ff6600; font-size: 28px; margin-bottom: 15px; }
+        .final-cta p { color: #ccc; font-size: 14px; margin-bottom: 30px; line-height: 1.8; }
+
+        footer { background: #0a0a0a; padding: 30px 0; text-align: center; color: #888; font-size: 12px; border-top: 2px solid #ff4500; }
+
         @media (max-width: 768px) {
-            .hero h1 { font-size: 32px; }
-            .hero p { font-size: 18px; }
-            .price { font-size: 40px; }
-            .section-title { font-size: 28px; }
-            nav a { display: block; margin: 10px 0; }
-            .header-content { flex-direction: column; gap: 20px; }
+            header h1 { font-size: 24px; }
+            .hero h2 { font-size: 24px; }
+            .checklist-grid { grid-template-columns: 1fr; }
+            .cards-grid { grid-template-columns: 1fr; }
         }
     </style>
 </head>
 <body>
+    <div class="urgency-bar">
+        ⚠️ VAGAS LIMITADAS! Segunda e Terça (29-30/06) | 19h-21h CADA DIA 🔴
+    </div>
+
     <header>
         <div class="container">
-            <div class="header-content">
-                <div class="logo">⚖️ Advocacia que Atrai</div>
-            </div>
+            <h1>⚖️ Advocacia que Atrai</h1>
+            <p>Plano Estratégico + Agenda Como Cliante + 10 Estratégias Prontas</p>
+            <p style="font-size: 12px; margin-top: 10px;">📅 Aula em 2 Dias | ⏰ Aulas ao Vivo | ✅ Checklist de 10 Estratégias</p>
         </div>
     </header>
 
     <section class="hero">
         <div class="container">
-            <h1>Plano Estratégico Personalizado</h1>
-            <p>Transforme sua prática jurídica em um negócio escalável e lucrativo. Estratégias comprovadas para atrair clientes, fidelizar e aumentar seus ganhos.</p>
+            <h2>Seu Primeiro Cliente em 7 Dias</h2>
+            <p style="font-size: 14px; color: #ccc;">Plano Estratégico • Agenda Como Cliante • 10 Estratégias Prontas</p>
+        </div>
+    </section>
 
-            <div style="display: flex; justify-content: center; margin: 50px 0;">
-                <!-- Plano Aula 2 Dias -->
-                <div style="background: #1a1a1a; border: 2px solid #d4af37; padding: 40px; border-radius: 12px; max-width: 450px;">
-                    <h3 style="color: #d4af37; font-size: 24px; margin-bottom: 20px;">🚀 Plano Iniciante</h3>
+    <section class="container">
+        <h3 style="text-align: center; color: #ff6600; font-size: 24px; margin: 60px 0 40px;">O Que Você Vai Levar</h3>
+        <div class="cards-grid">
+            <div class="card">
+                <div class="card-icon">📋</div>
+                <h3>Diagnóstico Completo</h3>
+                <p>Análise da sua situação atual + oportunidades + identificação clara do seu nicho</p>
+            </div>
+            <div class="card">
+                <div class="card-icon">🎯</div>
+                <h3>Nicho Definido</h3>
+                <p>Você sairá da aula sabendo EXATAMENTE em qual segmento focar seus esforços</p>
+            </div>
+            <div class="card">
+                <div class="card-icon">✅</div>
+                <h3>Plano Estratégico</h3>
+                <p>10 passos práticos e passo para você começar HOJE e ter seu primeiro cliente em 7 dias</p>
+            </div>
+            <div class="card">
+                <div class="card-icon">💰</div>
+                <h3>Roteiro de Vendas</h3>
+                <p>Passo a passo claro: abraços ao frio + follow-up + argumentos de vendas</p>
+            </div>
+            <div class="card">
+                <div class="card-icon">👥</div>
+                <h3>Ser Primeiro Cliente em 7 Dias</h3>
+                <p>Lista de estratégias onde você potencia seu alcance da forma mais rápida</p>
+            </div>
+            <div class="card">
+                <div class="card-icon">🤝</div>
+                <h3>Comunidade de Apoio</h3>
+                <p>Acesso exclusivo com advogados na mesma jornada. Troque experiências</p>
+            </div>
+        </div>
+    </section>
 
-                    <div style="background: #2d2d2d; padding: 20px; border-radius: 8px; margin-bottom: 30px; border: 1px solid #d4af37;">
-                        <p style="color: #888; font-size: 13px;">📚 AULA EM 2 DIAS (4H TOTAIS):</p>
-                        <p style="color: #d4af37; font-size: 20px; margin: 10px 0;"><span style="font-weight: bold;">R$ 149,00</span></p>
+    <section>
+        <div class="highlight-box">
+            <h2>🚀 PLANO ESTRATÉGICO + BÔNUS EXPLOSIVOS 🚀</h2>
+            <p style="text-align: center; color: #fff; margin-bottom: 30px; font-size: 14px;">Segunda e Terça (29-30/06) | 19h-21h | Via Google Meet</p>
 
-                        <hr style="border: none; border-top: 1px solid #444; margin: 15px 0;">
+            <div class="highlight-item">
+                <strong>📚 AULA EM 2 DIAS (4 HORAS TOTAIS):</strong>
+                <p>PARTE 1: Segunda, 29 de junho | 19h-21h</p>
+                <p>PARTE 2: Terça, 30 de junho | 19h-21h</p>
+                <p>⚠️ VOCÊ PRECISA PARTICIPAR DOS 2 DIAS!</p>
+            </div>
 
-                        <p style="color: #888; font-size: 13px;">🎁 BÔNUS 1: Aula de Como Captar Clientes</p>
-                        <p style="color: #4ade80; font-size: 14px;">Valor: R$ 197 <span style="color: #b8b8b8;">(GRÁTIS para quem comprar)</span></p>
+            <div class="highlight-item">
+                <strong>🎁 BÔNUS 1: Aula de Como Captar Clientes</strong>
+                <p>Aula especial AINDA ESSA SEMANA explicando como trazer seu primeiro cliente.</p>
+                <p>Valor: R$ 197 (GRÁTIS para quem comprar)</p>
+            </div>
 
-                        <p style="color: #888; font-size: 13px; margin-top: 12px;">🎁 BÔNUS 2: 10 Estratégias para Ter Clientes em 7 Dias</p>
-                        <p style="color: #4ade80; font-size: 14px;">Valor: R$ 297 <span style="color: #b8b8b8;">(GRÁTIS para quem comprar)</span></p>
+            <div class="highlight-item">
+                <strong>🎁 BÔNUS 2: 10 Estratégias para Ter Clientes em 7 Dias</strong>
+                <p>Checklist pronto com 10 estratégias específicas para você começar HOJE e ter seu primeiro cliente em até 7 dias.</p>
+                <p>Valor: R$ 297 (GRÁTIS para quem comprar)</p>
+            </div>
 
-                        <hr style="border: none; border-top: 1px solid #444; margin: 15px 0;">
+            <div style="text-align: center; margin-top: 25px;">
+                <p style="font-size: 16px; font-weight: bold; color: #fff;">RESULTADO ESPERADO:</p>
+                <div class="result-item">✅ Seu plano estratégico escrito</div>
+                <div class="result-item">✅ Seu nicho definido</div>
+                <div class="result-item">✅ Seu primeiro cliente em até 7 dias (garantido ou dinheiro de volta!)</div>
+            </div>
+        </div>
+    </section>
 
-                        <p style="color: #888; font-size: 13px;">VALOR TOTAL NORMALMENTE:</p>
-                        <p style="color: #b8b8b8; font-size: 16px; text-decoration: line-through;">R$ 643,00</p>
+    <section class="pricing-section">
+        <div class="container">
+            <h2>Quanto Custa?</h2>
+            <div class="price-box">
+                <p>AULA EM 2 DIAS + PLANO CUSTOMIZADO</p>
+                <div class="price">R$ 49,90</div>
+                <p style="font-size: 12px; color: #999;">Investimento para Aula de 2 Dias + Plano Customizado</p>
+                <a href="https://kiwify.com.br/produto/plano-estrategico" class="btn">GARANTIR MINHA VAGA AGORA</a>
+                <div class="guarantee">
+                    <strong>Você está investindo: 49,90</strong><br>
+                    Seus ganhos assim que tiver seu 1º cliente: Mínimo R$ 1.000 (dos 3 primeiros meses!)
+                </div>
+            </div>
+        </div>
+    </section>
 
-                        <hr style="border: none; border-top: 2px solid #d4af37; margin: 15px 0;">
-
-                        <p style="color: #4ade80; font-size: 13px; font-weight: bold;">🔥 MAS NA PROMOÇÃO:</p>
-                        <div style="font-size: 48px; color: #4ade80; font-weight: 700;">R$ 49,90</div>
-                        <p style="color: #ff6b6b; font-size: 14px; font-weight: bold;">Desconto de 92%! ⚡</p>
+    <section class="checklist-section">
+        <div class="container">
+            <h2>Este Plano É Para Você?</h2>
+            <div class="checklist-grid">
+                <div>
+                    <h3>✅ ESTE PLANO É PARA VOCÊ SE:</h3>
+                    <div class="checklist-item">
+                        <span class="checklist-icon">✓</span>
+                        <p>Você quer trabalhando com foco em clientes de qualidade</p>
                     </div>
-
-                    <p style="color: #b8b8b8; margin-bottom: 20px; font-size: 14px;">Aula em 2 dias (4h totais) + Plano Customizado + 2 Bônus</p>
-                    <ul style="list-style: none; margin-bottom: 30px; text-align: left;">
-                        <li style="color: #b8b8b8; padding: 8px 0;"><span style="color: #d4af37; font-weight: bold;">✓</span> Aula em 2 dias via Google Meet</li>
-                        <li style="color: #b8b8b8; padding: 8px 0;"><span style="color: #d4af37; font-weight: bold;">✓</span> 4 horas de conteúdo ao vivo</li>
-                        <li style="color: #b8b8b8; padding: 8px 0;"><span style="color: #d4af37; font-weight: bold;">✓</span> Plano Customizado para seu negócio</li>
-                        <li style="color: #b8b8b8; padding: 8px 0;"><span style="color: #d4af37; font-weight: bold;">✓</span> Bônus 1: Como Captar Clientes (GRÁTIS)</li>
-                        <li style="color: #b8b8b8; padding: 8px 0;"><span style="color: #d4af37; font-weight: bold;">✓</span> Bônus 2: 10 Estratégias em 7 Dias (GRÁTIS)</li>
-                    </ul>
-                    <a href="https://kiwify.com.br/produto/plano-estrategico-49" class="cta-button" style="width: 100%; text-align: center;">Garantir Minha Vaga Agora</a>
+                    <div class="checklist-item">
+                        <span class="checklist-icon">✓</span>
+                        <p>Quer um diferenciador claro de independentes e big firms</p>
+                    </div>
+                    <div class="checklist-item">
+                        <span class="checklist-icon">✓</span>
+                        <p>Tem atenção a finanças e crescimento (VAI aplicar!)</p>
+                    </div>
+                    <div class="checklist-item">
+                        <span class="checklist-icon">✓</span>
+                        <p>Quer seu 1º cliente buscando lucrar mais nos próximos dias</p>
+                    </div>
                 </div>
-            </div>
-
-            <div class="guarantee">
-                <h3>🛡️ Garantia de 7 Dias</h3>
-                <p>Se não gostar, devolvemos 100% do seu dinheiro. Sem perguntas. Seu risco é zero.</p>
-            </div>
-        </div>
-    </section>
-
-    <section class="features">
-        <div class="container">
-            <h2 class="section-title">Por que este plano é diferente?</h2>
-            <div class="features-grid">
-                <div class="feature-card"><h3>📊 Estratégia Comprovada</h3><p>Método desenvolvido com 50+ advogados que aumentaram ganhos em até 300% em 12 meses.</p></div>
-                <div class="feature-card"><h3>🎯 Prático e Aplicável</h3><p>Sem teoria. Apenas passos concretos que você implementa HOJE e vê resultados em 30 dias.</p></div>
-                <div class="feature-card"><h3>💼 Personalizado</h3><p>Adapte para sua especialidade: família, trabalhista, empresarial ou qualquer área.</p></div>
-                <div class="feature-card"><h3>🚀 Acesso Vitalício</h3><p>Compre uma vez, acesse para sempre. Atualizações futuras sem custo extra.</p></div>
-                <div class="feature-card"><h3>📱 Multi-Plataforma</h3><p>Computador, tablet ou smartphone. Estude quando e onde quiser.</p></div>
-                <div class="feature-card"><h3>✅ Suporte Direto</h3><p>Dúvidas? Resposta em até 24 horas de nossa equipe especializada.</p></div>
-            </div>
-        </div>
-    </section>
-
-    <section class="modules" id="modulos">
-        <div class="container">
-            <h2 class="section-title">O que você vai aprender?</h2>
-            <div class="modules-list">
-                <div class="module">
-                    <h4>Módulo 1: Posicionamento Estratégico</h4>
-                    <ul><li>Como se diferenciar dos concorrentes</li><li>Definir seu nicho de mercado</li><li>Criar uma marca forte</li><li>Posicionar-se como especialista</li><li>Análise de mercado para advogados</li></ul>
-                </div>
-                <div class="module">
-                    <h4>Módulo 2: Atração de Clientes</h4>
-                    <ul><li>5 canais principais de captação</li><li>Marketing digital para jurídico</li><li>LinkedIn: estratégia passo a passo</li><li>Google Business: apareça nos buscas</li><li>Networking: técnicas eficientes</li></ul>
-                </div>
-                <div class="module">
-                    <h4>Módulo 3: Vendas e Conversão</h4>
-                    <ul><li>Consultoria jurídica que vende</li><li>Argumentos de persuasão éticos</li><li>Precificação inteligente</li><li>Proposta de valor irrecusável</li><li>Fechamento de contratos</li></ul>
-                </div>
-                <div class="module">
-                    <h4>Módulo 4: Relacionamento & Fidelização</h4>
-                    <ul><li>Atender além das expectativas</li><li>Criar clientes recorrentes</li><li>Indústria de indicações</li><li>Programa de fidelização</li><li>Gestão de conflitos com clientes</li></ul>
-                </div>
-                <div class="module">
-                    <h4>Módulo 5: Gestão & Lucratividade</h4>
-                    <ul><li>Precificação de serviços jurídicos</li><li>Margem de lucro ideal</li><li>Controle financeiro eficiente</li><li>Reduzir custos sem perder qualidade</li><li>Escalabilidade do negócio</li></ul>
-                </div>
-                <div class="module">
-                    <h4>Módulo 6: Implementação & Resultados</h4>
-                    <ul><li>Plano de ação 30-60-90 dias</li><li>Métricas que importam</li><li>Otimização contínua</li><li>Checklist de implementação</li><li>Bônus: Templates prontos</li></ul>
+                <div>
+                    <h3>❌ NÃO É PARA VOCÊ SE:</h3>
+                    <div class="checklist-item">
+                        <span class="checklist-icon no">✗</span>
+                        <p>Não quer investir em si mesmo e quer tudo de graça</p>
+                    </div>
+                    <div class="checklist-item">
+                        <span class="checklist-icon no">✗</span>
+                        <p>Acha que vai ficar rico do lado para lado rapidinho</p>
+                    </div>
+                    <div class="checklist-item">
+                        <span class="checklist-icon no">✗</span>
+                        <p>Procura por 150% gratuito</p>
+                    </div>
+                    <div class="checklist-item">
+                        <span class="checklist-icon no">✗</span>
+                        <p>Você já tem 500+ clientes recorrentes por mês com sua tatica (já passou daqui!)</p>
+                    </div>
                 </div>
             </div>
         </div>
     </section>
 
-    <section class="benefits" id="beneficios">
+    <section class="faq-section">
         <div class="container">
-            <h2 class="section-title">Benefícios Exclusivos</h2>
-            <div class="benefit-item"><div class="benefit-icon">📚</div><div class="benefit-content"><h4>6 Módulos Completos</h4><p>80+ videoaulas + PDFs com frameworks, templates e checklists prontos para usar.</p></div></div>
-            <div class="benefit-item"><div class="benefit-icon">🎯</div><div class="benefit-content"><h4>Plano de Ação Personalizado</h4><p>Preencha um formulário e receba um plano customizado para sua situação.</p></div></div>
-            <div class="benefit-item"><div class="benefit-icon">💬</div><div class="benefit-content"><h4>Comunidade Exclusiva</h4><p>Grupo de advogados na mesma jornada. Troque experiências e aprenda juntos.</p></div></div>
-            <div class="benefit-item"><div class="benefit-icon">🎁</div><div class="benefit-content"><h4>Bônus: Contratos Jurídicos</h4><p>10 contratos prontos: honorários, prestação de serviços, consultoria e mais.</p></div></div>
-            <div class="benefit-item"><div class="benefit-icon">📊</div><div class="benefit-content"><h4>Planilha de Gestão Financeira</h4><p>Controle receitas, despesas, lucro e margem com planilha automática Excel.</p></div></div>
-            <div class="benefit-item"><div class="benefit-icon">🔄</div><div class="benefit-content"><h4>Atualizações Vitalícias</h4><p>Novos conteúdos e estratégias sempre. Sem custo extra.</p></div></div>
+            <h2>Dúvidas Frequentes</h2>
+            <div class="faq-item">
+                <p>❓ E se eu não conseguir participar ou surgir um compromisso?</p>
+            </div>
+            <div class="faq-item">
+                <p>❓ Como funciona e o plano estratégico será customizado?</p>
+            </div>
+            <div class="faq-item">
+                <p>❓ Quantos participantes?</p>
+            </div>
+            <div class="faq-item">
+                <p>❓ Qual é a diferença entre este plano e o Workshop do youtube?</p>
+            </div>
+            <div class="faq-item">
+                <p>❓ Posso usar as estratégias logo?</p>
+            </div>
+            <div class="faq-item">
+                <p>❓ É só live? Tem workshop grátis?</p>
+            </div>
         </div>
     </section>
 
-    <section class="testimonials">
+    <section class="final-cta">
         <div class="container">
-            <h2 class="section-title">O que dizem os advogados</h2>
-            <div class="testimonial"><div class="testimonial-text">"Implementei em meu escritório e em 90 dias o faturamento subiu 45%. Consegui refusar propostas ruins. Mais qualidade e mais rentabilidade."</div><div class="testimonial-author">— Fernando M., Direito Empresarial</div></div>
-            <div class="testimonial"><div class="testimonial-text">"Sou sócio com 10 anos de escritório. Achei que era para iniciantes. Errei. Aprendi estratégias que implementei imediatamente. Vale cada centavo."</div><div class="testimonial-author">— Patricia L., Direito de Família</div></div>
-            <div class="testimonial"><div class="testimonial-text">"A fidelização de clientes foi revolucionária. Passei de clientes pontuais para mensais recorrentes. Mudou meu negócio completamente."</div><div class="testimonial-author">— Carlos A., Advogado Autônomo</div></div>
+            <h2>O Que Você Espera?</h2>
+            <p><strong>Seu Primeiro Cliente em 7 Dias.</strong><br>
+            Ah, de dois: A hora da aula + 2 talhas que valem R$ 197 + posição que pode te proporcionar um investimento que muda sua vida: Sua primeira renda.</p>
+            <a href="https://kiwify.com.br/produto/plano-estrategico" class="btn" style="max-width: 400px;">SIM, QUERO MEU PLANO ESTRATÉGICO</a>
         </div>
     </section>
-
 
     <footer>
         <div class="container">
-            <p>&copy; 2026 Advocacia que Atrai. Todos os direitos reservados.</p>
-            <p>Desenvolvido para advogados que querem escalar seus negócios.</p>
+            <p>Plano Estratégico Personalizado</p>
+            <p>© 2026 Advocacia que Atrai. Todos os direitos reservados.</p>
         </div>
     </footer>
 </body>
